@@ -1,0 +1,87 @@
+br{
+	/*deixa o texto não selecionável*/
+	user-select: none;
+}
+/*h1{
+	font-family: 'Berkshire Swash', cursive !important;
+	color: red !important;
+}
+
+		exibe usuarios		*/
+
+/*.ellink{
+	display: inline-block;
+	background: #fff;
+	color: #000;
+	border-radius: 20px;
+	text-decoration: none;
+	font-weight: 500;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.conteiner{
+	position: relative;
+	display: flex;	
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	max-width: 1200px;
+	z-index: 1;
+	flex-wrap: wrap;
+	overflow-wrap: break-word;
+}
+
+.conteiner, .carde{
+	position: relative;
+	width: 250px;
+	height: 480px;
+	margin: 30px;
+	box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5); border-radius: 15px;
+	background: rgba(255, 255, 255, 0.1);
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 1px solid rgba(255, 255, 255, 0.5);
+	border-left: 1px solid rgba(255, 255, 255, 0.5);
+	backdrop-filter: blur(5px);
+}
+
+.conteiner, .carde, .conteudodocard{
+	padding: 20px;
+	text-align: center;
+	transition: 0.5s;
+}
+
+.conteiner, .carde, .conteudodocard, .grande{
+	position: absolute;
+	top: -30px;
+	right: 30px;
+	font-size: 8em;
+	color: rgba(255, 255, 255, 0.05);
+	pointer-events: none;
+}
+/*
+.conteiner .carde .conteudodocard h3{
+	font-size: 1.8em; 
+	color: #fff;
+	z-index: 1;
+}
+
+.conteiner .carde .conteudodocard p{
+	font-size: 1em; 
+	color: #fff; 
+	font-weight: 300;
+}
+
+.conteiner .carde .conteudodocard a{
+	position: relative;
+	display: inline-block;
+	background: #fff;
+	color: #000;
+	border-radius: 20px;
+	text-decoration: none;
+	font-weight: 500;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}

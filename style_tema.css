@@ -1,0 +1,142 @@
+/* Importando as variáveis */
+@import './vars.css';
+
+/*
+
+* Se você linkar no html/php um arquivo css que contém as variáveis, ou um arquivo que
+já importa elas, você poderá usa-las no <style></style>
+
+* Use o código var(--variavel) para funcionar :D
+
+*/    
+
+* {
+  /* Transição do background-color e de color 
+  transition: background-color .1s, color .1s;*/
+}
+
+/* Cor do background, incluindo background do modal */
+body, #bodyteimoso, .modal-content{
+  background-color: var(--bg-color);
+}
+
+
+
+/*************** LETRAS ***************/
+h1, #h1mobile{
+  font-family: 'Berkshire Swash', cursive !important;
+  text-align: left !important;
+  font-size: 50px!important;
+}
+
+p, .alinhar-p, h6{
+  color: var(--text-color);
+}
+
+/* Faz com que as letras do modal fiquem B&W de acordo com o tema */
+.container{
+  color: var(--text-color);
+}
+
+.close{
+  color: var(--text-color);
+}
+.close:hover {
+  color: var(--iconvert-color);
+}
+/*************** FIM LETRAS ***************/
+
+
+
+/*************** MENU ***************/
+.icon_color{
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.icon_color .teme_button {
+  margin-left: .5rem;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon_color .teme_button i {
+  font-size: 2rem;
+  color: var(--i-color);
+  padding: .5rem;
+}
+
+.menu, .menu-vertical{
+  background-color: var(--menu-bg);
+  /* Cor do titulo Ordem de Serviço do menu */
+  color: var(--bw-color);
+}
+
+#h1-menu, #h1teimoso{
+  color: var(--h1menu-color);
+}
+
+.a-menu{
+  color: var(--iconvert-color);
+}
+
+/* Cor do hover do li do menu vertical */
+.menu-vertical .li-menu .a-menu:hover{
+  background-color: var(--lihover-bg)!important;
+  color: var(--lihover-color)!important;
+}
+
+
+/*************** FIM DO MENU ***************/
+
+
+
+/*************** BOTÕES ***************/
+.btn{
+  background-color: var(--btn-bg);
+  color: var(--btn-color);
+  font-weight: 600;
+}
+
+.btn:hover{
+  background-color: var(--btn-hover-bg);
+  color: var(--btn-hover-color);
+}
+
+
+/*************** FIM DOS BOTÕES ***************/
+
+#modal-header-color, #icon-modal{
+  color: var(--header-modal-color);
+}
+
+
+#ativo{
+  background-color: var(--ativo-bg) !important;
+}
+#inativo{
+  background-color: var(--inativo-bg) !important;
+}
+
+
+/*************** PERFIL ***************/
+
+
+/*************** FIM DO PERFIL ***************/
+
+
+/*#ativo-equip{
+  background-color: var(--ativo-bg);
+  border: var(--ativo-borda) 1px solid !important;
+  border-radius: 15px !important;
+}
+#inativo-equip{
+  background-color: var(--inativo-bg);
+  border: var(--inativo-borda) 1px solid !important;
+  border-radius: 15px !important;
+}*/

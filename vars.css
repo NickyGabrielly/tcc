@@ -1,0 +1,187 @@
+
+/****************************** PARTE DO TEMA ESCURO ******************************/
+
+/* Root cria as variaveis */
+:root {
+
+/*
+-----Pallete color dark-----
+- Preto 		#FFFFFF
+- Cinza			#333333
+- Cinza claro	#525252
+- Azul escuro	#2546B3
+- Roxo escuro	#562EB3
+- Azul claro	#4F79FF
+- Roxo claro	#8C5CFF
+- Roxo			#4C48E8
+- Azul			#2546B3
+- Branco 		#000000  
+*/
+
+--bg-color: #333333;
+--text-color: #FFFFFF;
+--h1-color: #FFFFFF;
+--hr-color: #ffffff6b;
+
+/* Variavel para tudo que será branco no tema escuro e preto no tema claro */
+--bw-color: #FFFFFF;
+--bw-bg: #FFFFFF;
+
+/* Variavel para tudo que será preto no tema escuro e branco no tema claro */
+--wb-color: #000000;
+--wb-bg: #000000;
+
+/* Cor dos icones */
+--i-color: #FFFFFF;
+
+/*************** MENU ***************/
+/* Cor do background do menu */
+--menu-bg: #000000;
+
+/* Cor do titulo do menu (Ordem de Serviço) */
+--h1menu-bg: #FFFFFF;
+
+/* Cor do hover do menu vertical */
+--lihover-bg: #2546B3;
+--lihover-color: #FFFFFF;
+
+/* Cor dos icones do menu vertical */
+--iconvert-color: #b8b8b8;
+
+--tooltip-bg: red;
+/*************** FIM MENU ***************/
+
+
+
+/*************** BOTÕES ***************/
+--btn-bg: #8C5CFF;
+--btn-color: #FFFFFF;
+/*hover dos botões*/
+--btn-hover-bg: #562EB3;
+--btn-hover-color: #FFFFFF;
+
+--btn-blue-bg: #4F79FF;
+--btn-blue-color: #FFFFFF;
+/*hover dos botões*/
+--btn-blue-hover-bg: #2546B3;
+--btn-blue-hover-color: #FFFFFF;
+/*************** FIM DOS BOTÕES ***************/
+
+/* Cor do Header do modal */
+--header-modal-color: #8C5CFF;
+
+--ativo-bg: #562EB3;
+--inativo-bg: #222222;
+
+/*************** EXIBE ORDENS ***************/
+--aguardando-bg: #2546B3;
+/*************** FIM EXIBE ORDENS ***************/
+
+
+/*************** EXIBE USUARIO ***************/
+--ativo-alert-bg: #8C5CFF;
+--inativo-alert-bg: #562EB3;
+/*************** FIM EXIBE USUARIO ***************/
+
+
+/*************** PERFIL ***************/
+--btn-perfil-bg: #000000;
+--btn-hover-perfil-bg: #181818;
+
+--perfmod-bg: #464646;
+/*************** FIM DO PERFIL ***************/
+}
+
+
+
+/******************************* PARTE DO TEMA CLARO *******************************/
+
+/* Se o body tiver a classe white, as variaveis mudarão */
+body.white {
+
+/*
+-----Pallete color light-----
+- Preto 		#FFFFFF
+- Marrom		#9E6D4D
+- Marronzinho 	#CFB698
+- Rosa 			#FA8CB1
+- Rosa claro	#FDC4CA
+- Creme 		#FFFEE0
+- Branco 		#000000
+*/
+
+--bg-color: #FFFEE0; /*<-creminho	#EEE*/ 
+--text-color: #000000;
+--h1-color: #000000;
+--hr-color: #00000066;
+
+
+/* Variavel para tudo que será preto no tema escuro e branco no tema claro */
+--bw-color: #000000;
+--bw-bg: #000000;
+
+/* Variavel para tudo que será branco no tema escuro e preto no tema claro */
+--wb-color: #FFFFFF;
+--wb-bg: #FFFFFF;
+
+/* Cor dos icones */
+--i-color: #FFFFFF;
+
+/*************** MENU ***************/
+/* Cor do background do menu */
+--menu-bg: #9E6D4D; /*<-marrom		#BEA2EB*/
+
+/* Cor do titulo do menu (Ordem de Serviço) */
+--h1menu-color: #FFFFFF;/*#FFFEE0; <-creminho*/
+
+/* Cor do hover do menu vertical */
+--lihover-bg: #FA8CB1;/*<-rosa 		#765D9E;*/
+--lihover-color: #FFFFFF;/**/
+
+/* Cor dos icones do menu vertical */
+--iconvert-color: #CFB698; /*<-marronzinho 	s*/
+/*************** FIM DO MENU ***************/
+
+
+
+/*************** BOTÕES ***************/
+--btn-bg: #FA8CB1;
+--btn-color: #FFFFFF;
+/*hover dos botões*/
+--btn-hover-bg: #ff6699;
+--btn-hover-color: #FFFFFF;
+
+--btn-blue-bg: #CFB698;
+--btn-blue-color: #FFFFFF;
+/*hover dos botões*/
+--btn-blue-hover-bg: #9E6D4D;
+--btn-blue-hover-color: #FFFFFF;
+/*************** FIM DOS BOTÕES ***************/
+
+/* Cor do Header do modal */
+--header-modal-color: #FA8CB1;
+
+--ativo-bg: #CFB698;/*rgba(255, 165, 158, 0.4);*/
+--inativo-bg: #FDC4CA;/*rgba(138, 235, 159, 0.4);*/
+
+--ativo-borda: #9E6D4D;
+--inativo-borda: #FA8CB1;
+
+/*************** EXIBE ORDENS ***************/
+--aguardando-bg: #FFFEE0;
+/*************** FIM EXIBE ORDENS ***************/
+
+/*************** EXIBE USUARIO ***************/
+--ativo-alert-bg: #CFB698;
+--inativo-alert-bg: #FDC4CA;
+/*************** FIM EXIBE USUARIO ***************/
+
+/*************** PERFIL ***************/
+--btn-perfil-bg: #FA8CB1;
+--btn-hover-perfil-bg: #FDC4CA;
+
+--perfmod-bg: #ffd6e4b5;
+/*************** FIM DO PERFIL ***************/
+}
+
+
